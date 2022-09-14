@@ -22,7 +22,7 @@ def eigen_repository(
         name = name,
         repository = "FoxBots/eigen-git-mirror",
         commit = "3.3.3",
-        sha256 = "94878cbfa27b0d0fbc64c00d4aafa137f678d5315ae62ba4aecddbd4269ae75f",  # noqa
+        sha256 = "df6082711532336354466bab70f66c16ff88e616ac3884eba555b6f0b4860e65",  # noqa
         build_file = "@drake//tools/workspace/eigen:package.BUILD.bazel",
         mirrors = mirrors,
     )
