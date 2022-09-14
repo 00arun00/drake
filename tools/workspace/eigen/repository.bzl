@@ -1,6 +1,8 @@
 # -*- python -*-
 
-load("@drake//tools/workspace:bitbucket.bzl", "bitbucket_archive")
+# load("@drake//tools/workspace:bitbucket.bzl", "bitbucket_archive")
+load("@drake//tools/workspace:github.bzl", "github_archive")
+
 
 def eigen_repository(
         name,
